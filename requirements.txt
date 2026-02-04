@@ -2,3 +2,5 @@ GitPython
 ruamel.yaml
 click
 deepdiff
+pytest
+pytest-mock

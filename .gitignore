@@ -1,0 +1,5 @@
+.venv
+uv.lock
+git_change_detect.egg-info
+__pycache__
+*.pyc
