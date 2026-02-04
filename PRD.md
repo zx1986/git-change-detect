@@ -149,7 +149,3 @@ steps:
 2. **路徑表示法:** `key_path` 建議使用點符號 (dot notation) 表示層級，例如 `spec.containers[0].image`。
 3. **Git Show:** 使用 `git show <commit_hash>:<file_path>` 來獲取檔案在特定版本的內容字串，不要依賴本地檔案系統的當前狀態 (因為要比對的是歷史版本)。
 4. 使用 uv 進行 python 運行環境的管理。
-
----
-
-**下一步:** 請 AI Agent 根據上述 PRD 開始編寫 Python 程式碼，優先建立 `requirements.txt` 與核心 Diff 邏輯模組。
